@@ -1,0 +1,45 @@
+exception 解决方法
+
+1) 关闭 - 中文问题警告
+final File file = new File(filePath);
+WorkbookSettings settings = new WorkbookSettings();
+// 关闭警告信息(特别是中文问题警告)
+settings.setSuppressWarnings(true);
+workbook = Workbook.getWorkbook(file, settings);
+
+2)
+
+3)
+
+4)
+
+5)
+
+6)
+
+7)
+
+8)
+
+9)
+
+10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

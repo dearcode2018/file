@@ -1,0 +1,19 @@
+
+
+
+
+
+
+1) 解决单元格为数字类型，去除小数，转化为整数 - 解决方法
+// 格式化所有为数字类型的单元格，将小数去除
+final DecimalFormat decimalFormat = new DecimalFormat("#");
+decimalFormat.format(cell.getNumericCellValue());
+
+
+
+
+
+
+
+
+
