@@ -4,48 +4,40 @@
 	<parent>
 		<groupId>com.hua</groupId>
 		<artifactId>file-entire</artifactId>
-		<version>0.0.1</version>
+		<version>1.0.0</version>
 	</parent>	
 	<artifactId>poi</artifactId>
 	<packaging>jar</packaging>
 	<name>poi</name>
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		
-		<file.version>0.0.1</file.version>
-		<poi.version>3.12</poi.version>		
+
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.hua</groupId>
-			<artifactId>file</artifactId>
-			<version>${file.version}</version>
+			<artifactId>file-core</artifactId>
 		</dependency>
 
 		<!-- poi -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>${poi.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
-			<version>${poi.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml-schemas</artifactId>
-			<version>${poi.version}</version>
 		</dependency>
 		
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-excelant</artifactId>
-			<version>${poi.version}</version>
 		</dependency>				
 	</dependencies>
 

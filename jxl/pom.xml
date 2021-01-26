@@ -4,29 +4,24 @@
 	<parent>
 		<groupId>com.hua</groupId>
 		<artifactId>file-entire</artifactId>
-		<version>0.0.1</version>
+		<version>1.0.0</version>
 	</parent>	
 	<artifactId>jxl</artifactId>
 	<packaging>jar</packaging>
 	<name>jxl</name>
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		
-		<file.version>0.0.1</file.version>
-		<jxl.version>2.6</jxl.version>
+
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.hua</groupId>
-			<artifactId>file</artifactId>
-			<version>${file.version}</version>
+			<artifactId>file-core</artifactId>
 		</dependency>
 
 		<dependency>
 			<groupId>jexcelapi</groupId>
 			<artifactId>jxl</artifactId>
-			<version>${jxl.version}</version>
 		</dependency>
 		
 	</dependencies>

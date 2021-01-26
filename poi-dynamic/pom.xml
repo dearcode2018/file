@@ -4,23 +4,19 @@
 	<parent>
 		<groupId>com.hua</groupId>
 		<artifactId>file-entire</artifactId>
-		<version>0.0.1</version>
+		<version>1.0.0</version>
 	</parent>	
 	<artifactId>poi-dynamic</artifactId>
 	<packaging>jar</packaging>
 	<name>poi-dynamic</name>
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		
-		<com.hua.poi.version>0.0.1</com.hua.poi.version>
-		
+
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.hua</groupId>
 			<artifactId>poi</artifactId>
-			<version>${com.hua.poi.version}</version>
 		</dependency>
 		
 	</dependencies>
